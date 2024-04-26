@@ -1,6 +1,6 @@
 # GeFu
 
-This is the repository that contains source code for the [GeFu website](https://GeFu-cvpr24.github.io).
+This is the repository that contains source code for the [GeFu website](https://gefucvpr24.github.io).
 
 If you find GeFu useful for your work please cite:
 ```
