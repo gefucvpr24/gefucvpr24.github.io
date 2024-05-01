@@ -111,26 +111,6 @@
     
 
 
-    
-<!--
-<section class="hero teaser">
-  <div class="hero-body">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <video id="teaser" autoplay muted loop height="100%">
-          <source src="https://storage.googleapis.com/nerfies-public/videos/teaser.mp4"
-                  type="video/mp4">
-        </video>
-        <h2 class="subtitle has-text-centered">
-          <span class="dnerf">D-NeRF</span> turns selfie videos from your phone into free-viewpoint
-          portraits (<i>nerfies</i>).
-        </h2>
-      </div>
-    </div>
-  </div>
-</section>
--->
-
 
 <section class="section">
   <div class="container">
@@ -189,23 +169,11 @@
 <section class="section">
   <div class="container">
     <div class="columns is-centered">
-      <div class="column is-two-thirds">
+      <div class="column is-three-thirds">
         <h2 align="center"  class="title is-2">Results</h2>
           <h3 align="center"  class="title is-3">Generalization results</h3>
           <img class="img-fluid" src="static\images\comparison.png">
 
-          <h3 align="center" class="title is-4">Ours vs. ENeRF </h3>
-          <div class="content has-text-justified">
-          </div>
-          <div class="content has-text-centered">
-            <video id="replay-video"
-                  controls
-                  muted
-                  width="100%">
-              <source src="static/videos/comparison.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
           <section class="hero is-light is-small">
             <div class="hero-body">
               <div class="container">
@@ -268,79 +236,195 @@
                 </div>
               </div>
             </div>
+          
+            <h3 align="center" class="title is-4">Ours vs. ENeRF </h3>
+            <div class="content has-text-justified">
+            </div>
+            <div class="content has-text-centered">
+              <video id="replay-video"
+                    controls
+                    muted
+                    width="100%">
+                <source src="static/videos/gen/video_comparison.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
           </section>
 
         
           <h3 align="center"  class="title is-3">Finetuned results</h3>
-                  
+          <h4 align="center"  class="title is-4">DTU</h4>
           <section class="hero is-light is-small">
             <div class="hero-body">
               <div class="container">
                 <div id="results-carousel" class="carousel results-carousel">
-                  <div class="item item-hotdog_13_0">
-                    <video poster="" id="hotdog_13_0" autoplay controls muted loop height="100%">
-                      <source src="static\videos\ft\hotdog_13_0.mp4"
-                              type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="item item-materials_63_0">
-                    <video poster="" id="materials_63_0" autoplay controls muted loop height="100%">
-                      <source src="static\videos\ft\materials_63_0.mp4"
-                              type="video/mp4">
-                    </video>
-                  </div>
-
-                  <div class="item item-mic_20_0">
-                    <video poster="" id="mic_20_0" autoplay controls muted loop height="100%">
-                      <source src="static\videos\ft\mic_20_0.mp4"
-                              type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="item item-ship_20_0">
-                    <video poster="" id="ship_20_0" autoplay controls muted loop height="100%">
-                      <source src="static\videos\ft\ship_20_0.mp4"
-                              type="video/mp4">
-                    </video>
-                  </div>
                   <div class="item item-scan1_23_0">
                     <video poster="" id="scan1_23_0" autoplay controls muted loop height="100%">
-                      <source src="static\videos\ft\scan1_23_0.mp4"
+                      <source src="static\videos\ft\dtu\scan1_23_0.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="item item-scan103_44_0">
+                    <video poster="" id="scan103_44_0" autoplay controls muted loop height="100%">
+                      <source src="static\videos\ft\dtu\scan103_44_0.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="item item-scan114_23_0">
+                    <video poster="" id="scan114_23_0" autoplay controls muted loop height="100%">
+                      <source src="static\videos\ft\dtu\scan114_23_0.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                   <div class="item item-scan8_23_0">
+                    <video poster="" id="scan8_23_0" autoplay controls muted loop height="100%">
+                      <source src="static\videos\ft\dtu\scan8_23_0.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="item item-scan1_32_0">
+                    <video poster="" id="scan1_32_0" autoplay controls muted loop height="100%">
+                      <source src="static\videos\ft\dtu\scan1_32_0.mp4"
                               type="video/mp4">
                     </video>
                   </div>
                   <div class="item item-scan103_32_0">
                     <video poster="" id="scan103_32_0" autoplay controls muted loop height="100%">
-                      <source src="static\videos\ft\scan103_32_0.mp4"
+                      <source src="static\videos\ft\dtu\scan103_32_0.mp4"
                               type="video/mp4">
                     </video>
                   </div>
-                  <div class="item item-scan114_44_0">
-                    <video poster="" id="scan114_44_0" autoplay controls muted loop height="100%">
-                      <source src="static\videos\ft\scan114_44_0.mp4"
+                  <div class="item item-scan114_24_0">
+                    <video poster="" id="scan114_24_0" autoplay controls muted loop height="100%">
+                      <source src="static\videos\ft\dtu\scan114_24_0.mp4"
                               type="video/mp4">
                     </video>
                   </div>
-                  <div class="item item-horns_33_0">
-                    <video poster="" id="horns_33_0" autoplay controls muted loop height="100%">
-                      <source src="static\videos\ft\horns_33_0.mp4"
-                              type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="item item-flower_5_0">
-                    <video poster="" id="flower_5_0" autoplay controls muted loop height="100%">
-                      <source src="static\videos\ft\flower_5_0.mp4"
-                              type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="item item-room_35_0">
-                    <video poster="" id="room_35_0" autoplay controls muted loop height="100%">
-                      <source src="static\videos\ft\room_35_0.mp4"
+                   <div class="item item-scan8_44_0">
+                    <video poster="" id="scan8_44_0" autoplay controls muted loop height="100%">
+                      <source src="static\videos\ft\dtu\scan8_44_0.mp4"
                               type="video/mp4">
                     </video>
                   </div>
                 </div>
               </div>
             </div>
+
+            <h4 align="center"  class="title is-4">Real Forward-facing</h4>
+            <section class="hero is-light is-small">
+              <div class="hero-body">
+                <div class="container">
+                  <div id="results-carousel" class="carousel results-carousel">
+                    <div class="item item-fern_12_0">
+                      <video poster="" id="fern_12_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\llff\fern_12_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="item item-flower_22_0">
+                      <video poster="" id="flower_22_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\llff\flower_22_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="item item-fortress_40_0">
+                      <video poster="" id="fortress_40_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\llff\fortress_40_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="item item-horns_31_0">
+                      <video poster="" id="horns_31_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\llff\horns_31_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="item item-leaves_13_0">
+                      <video poster="" id="leaves_13_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\llff\leaves_13_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="item item-orchids_16_0">
+                      <video poster="" id="orchids_16_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\llff\orchids_16_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="item item-room_15_0">
+                      <video poster="" id="room_15_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\llff\room_15_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="item item-trex_20_0">
+                      <video poster="" id="trex_20_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\llff\trex_20_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+
+            <h4 align="center"  class="title is-4">NeRF Synthetic</h4>
+            <section class="hero is-light is-small">
+              <div class="hero-body">
+                <div class="container">
+                  <div id="results-carousel" class="carousel results-carousel">
+                    <div class="item item-materials_46_0">
+                      <video poster="" id="materials_46_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\nerf\materials_46_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="item item-ship_20_0">
+                      <video poster="" id="ship_20_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\nerf\ship_20_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="item item-hotdog_13_0">
+                      <video poster="" id="hotdog_13_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\nerf\hotdog_13_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="item item-chair_32_0">
+                      <video poster="" id="chair_32_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\nerf\chair_32_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="item item-drums_68_0">
+                      <video poster="" id="drums_68_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\nerf\drums_68_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="item item-materials_63_0">
+                      <video poster="" id="materials_63_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\nerf\materials_63_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="item item-ship_22_0">
+                      <video poster="" id="ship_22_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\nerf\ship_22_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="item item-mic_20_0">
+                      <video poster="" id="mic_20_0" autoplay controls muted loop height="100%">
+                        <source src="static\videos\ft\nerf\mic_20_0.mp4"
+                                type="video/mp4">
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
           </section>
           
         
