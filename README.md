@@ -4,11 +4,13 @@ This is the repository that contains source code for the [GeFu website](https://
 
 If you find GeFu useful for your work please cite:
 ```
-@article{liu2024gefu,
-    title={Geometry-aware Reconstruction and Fusion-refined Rendering for Generalizable Neural Radiance Fields},
-    author={Liu, Tianqi and Ye, Xinyi and Shi, Min and Huang, Zihao and Pan, Zhiyu and Peng, Zhan and Cao, Zhiguo},
-    journal={arXiv preprint arXiv:2404.17528},
-    year={2024}
+@InProceedings{Liu_2024_CVPR,
+    author    = {Liu, Tianqi and Ye, Xinyi and Shi, Min and Huang, Zihao and Pan, Zhiyu and Peng, Zhan and Cao, Zhiguo},
+    title     = {Geometry-aware Reconstruction and Fusion-refined Rendering for Generalizable Neural Radiance Fields},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {7654-7663}
 }
 ```
 This website is borrowed from the [Nerfies website](https://nerfies.github.io) 
