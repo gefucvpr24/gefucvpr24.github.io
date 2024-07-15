@@ -13,4 +13,3 @@ If you find GeFu useful for your work please cite:
     pages     = {7654-7663}
 }
 ```
-This website is borrowed from the [Nerfies website](https://nerfies.github.io) 
